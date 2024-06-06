@@ -1,0 +1,133 @@
+body {
+	padding: 0;
+	margin: 0;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 16px;
+}
+section{
+	width: 100%;
+	height: 100vh;
+	background-color:gray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+scroll-snap-align: start;
+}
+
+.header {
+	width: 100%;
+	height: 100vh;
+	background: url('../image/fon1.jpg') no-repeat center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    scroll-snap-align: start;
+}
+
+.container{
+	width: 1620px;
+	height: 940px;
+}
+
+
+.menu{
+	display: flex; 
+	justify-content: space-around;
+}
+
+
+.tel {
+	text-align: right;
+	font-size: 24px;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+	color: #777777;
+}
+
+.TopMenu{
+	height: 30px;
+	width: 100%;
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.mid{
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 140px;
+	margin-left: 0;
+}
+
+.mid h1{
+	font-family: "Anton", sans-serif;
+	font-weight: 400;
+    font-size: 100px;
+    color: #000000;
+    margin:-10px;
+}
+
+.mid h2{
+    font-family: "BenchNine", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #272727;
+}
+
+.byNow{
+	border-radius: 70px;
+    width: 305px;
+    height: 95px;
+    background: #5c5c5c;
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Anton", sans-serif;
+}
+
+.byNow:hover{
+	color: #000000;
+	background: white;
+	cursor: pointer;
+}
+
+.about{
+    background: url('../img/about.png') no-repeat center;
+}
+
+.aboutTopMenu{
+    height: 180px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background:url('../img/aboutTopMenuBeck.png')no-repeat center;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.aboutTopMenuH3{
+    font-family: "Bellota Text", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    margin: 0px;
+    display: flex;
+    justify-self: start;
+}
+.aboutTopMenuP{
+    margin: 0px;
+    font-family: "Bellota Text", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000;
+}
